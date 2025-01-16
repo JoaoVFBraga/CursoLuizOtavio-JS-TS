@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background: linear-gradient(45deg, red, black);
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: rgb(255, 201, 201);
+  max-width: max-content;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 1.3rem;
+}
+
+.pausado {
+  color: red;
+}
