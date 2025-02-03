@@ -5,7 +5,7 @@ function Produto(nome, preco, estoque) {
     this.nome = nome;
     this.preco = preco;
 
-    let estoqurPrivado = estoque;
+    let estoquePrivado = estoque;
     Object.defineProperty(this, 'estoque', {
         enumerable: true,
         configurable: true,
@@ -13,7 +13,7 @@ function Produto(nome, preco, estoque) {
             return estoque;
         },
         set: function(valor) {
-            estoqurPrivado = valor;
+            estoquePrivado = valor;
         }
     });
 }
